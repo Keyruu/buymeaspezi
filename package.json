@@ -12,10 +12,11 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.9.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "@iconify-json/simple-icons": "^1.1.84",
+    "@iconify-json/mdi": "^1.1.63"
   },
   "dependencies": {
-    "@iconify-json/simple-icons": "^1.1.84",
     "@nuxtjs/i18n": "next"
   }
 }
