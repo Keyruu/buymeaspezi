@@ -32,7 +32,8 @@ export default defineNuxtConfig({
                 code: 'en',
                 iso: 'en-US',
                 name: 'English',
-                file: 'en.js'
+                file: 'en.js',
+                isCatchallLocale: true
             }
         ],
         defaultLocale: 'de',
