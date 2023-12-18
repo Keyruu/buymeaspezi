@@ -36,12 +36,14 @@ export default defineNuxtConfig({
                 isCatchallLocale: true
             }
         ],
+        vueI18n: "./i18n.config.ts",
         defaultLocale: 'de',
         langDir: 'lang/',
         detectBrowserLanguage: {
             useCookie: true,
             cookieKey: 'i18n_redirected',
             redirectOn: 'root',  // recommended
+            alwaysRedirect: true
         }
     }
 })
