@@ -15,7 +15,7 @@ function decrease() {
           <span class="text-[#FFD700]">{{ $t('gold') }}</span>
         </h1>
         <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          {{ $t('cheesy')}}
+          {{ $t('cheesy') }}
         </p>
         <div class="flex flex-row items-center">
           <div class="inline-flex rounded-md shadow-sm" role="group">
@@ -40,7 +40,15 @@ function decrease() {
         </div>
       </div>
       <div class="order-1 flex justify-center px-24 lg:p-0 mb-6 lg:m-0 lg:order-2 lg:mt-0 lg:col-span-5">
-        <NuxtImg format="webp" class="object-contain" src="/paulanerspezi.png" alt="mockup" />
+        <NuxtImg
+            sizes="sm:20vw md:50vw lg:100vw"
+            width="1000"
+            height="1550"
+            :placeholder="[100, 155]"
+            format="webp"
+            class="object-contain"
+            src="/paulanerspezi.png"
+            alt="Spezi"/>
       </div>
     </div>
   </section>
