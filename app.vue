@@ -11,6 +11,13 @@ useHead({
       type: 'image/png',
       href: '/favicon-32x32.png'
     }
+  ],
+  script: [
+    {
+      src: 'https://sorryihavetodothis.keyruu.de/js/script.js',
+      defer: true,
+      'data-domain': 'buymeaspezi.com'
+    },
   ]
 });
 
