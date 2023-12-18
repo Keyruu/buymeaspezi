@@ -10,11 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@nuxt/ui": "^2.9.0",
-    "nuxt": "^3.7.4",
+    "@iconify-json/mdi": "^1.1.63",
     "@iconify-json/simple-icons": "^1.1.84",
-    "@iconify-json/mdi": "^1.1.63"
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "latest",
+    "@nuxt/ui": "^2.9.0",
+    "@nuxtjs/web-vitals": "^0.2.6",
+    "nuxt": "^3.7.4",
+    "nuxt-simple-robots": "^4.0.0-rc.2",
+    "nuxt-simple-sitemap": "^4.1.17"
   },
   "dependencies": {
     "@nuxtjs/i18n": "next"
