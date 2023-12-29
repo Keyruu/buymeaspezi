@@ -18,6 +18,9 @@
              target="_blank"
              class="hover:underline me-4 md:me-6">Instagram</a>
         </li>
+        <li>
+          <NuxtLink href="/imprint" target="_blank" class="hover:underline">{{ $t('imprint') }}</NuxtLink>
+        </li>
       </ul>
     </div>
   </footer>

@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     site: {
         url: 'https://buymeaspezi.com',
+        indexable: false
     },
     devtools: {
         enabled: true,

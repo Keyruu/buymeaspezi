@@ -8,4 +8,5 @@ export default {
     paypal: "Kauf mir Spezi",
     madeBy: "Erstellt von ",
     website: "Webseite",
+    imprint: "Impressum",
 }
