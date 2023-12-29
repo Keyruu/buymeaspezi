@@ -4,7 +4,7 @@ export default {
     tagLine: "oder flüssiges",
     gold: "Gold",
     cheesy: `Das Benzin für meinen Motor. Das Öl für meine Kette. Der Treibstoff für meine Seele.
-        Kauf mir einen (oder mehrere) und ich bin glücklich. Bitte.`,
+        Kauf mir eine (oder mehrere) und ich bin glücklich. Bitte.`,
     paypal: "Kauf mir Spezi",
     madeBy: "Erstellt von ",
     website: "Webseite",
