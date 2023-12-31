@@ -7,11 +7,7 @@
   </p>
 
   <p>
-    Lucas Rott
-  </p>
-
-  <p>
-    Postanschrift:<br/>
+    Lucas Rott<br/>
     c/o COCENTER<br/>
     Koppoldstr. 1<br/>
     86551 Aichach
