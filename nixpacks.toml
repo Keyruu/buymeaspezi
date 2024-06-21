@@ -1,0 +1,2 @@
+[start]
+cmd = "node .output/server/index.mjs"
