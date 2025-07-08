@@ -14,9 +14,9 @@ useHead({
   ],
   script: [
     {
-      src: 'https://sorryihavetodothis.keyruu.de/js/script.js',
+      src: 'https://sorryihavetodothis.keyruu.de/api/script.js',
       defer: true,
-      'data-domain': 'buymeaspezi.com'
+      'data-site-id': '2'
     },
   ]
 });
