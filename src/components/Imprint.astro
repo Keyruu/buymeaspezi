@@ -1,0 +1,35 @@
+---
+import { useTranslations } from "../i18n/ui";
+
+interface Props {
+  lang: "de" | "en";
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<main class="flex-1 flex items-center justify-center p-8">
+  <div class="max-w-2xl text-gray-900 dark:text-gray-100">
+    <h1 class="text-3xl font-bold mb-6">{t("imprint")}</h1>
+    <p class="mb-4">Angaben gemäß § 5 TMG:</p>
+    <p class="mb-4">
+      Keyruu<br />
+      c/o COCENTER<br />
+      Koppoldstr. 1<br />
+      86551 Aichach
+    </p>
+    <p class="mb-4">
+      Kontakt:<br />
+      Telefon: +49 (0) 8441 7873873<br />
+      E-Mail: me@keyruu.de
+    </p>
+    <p>
+      Information gemäß § 36 VSBG<br />
+      Gemäß § 36 VSBG (Verbraucherstreitbeilegungsgesetz – Gesetz über die alternative
+      Streitbeilegung in Verbrauchersachen) erklärt der Betreiber dieser Website:
+      Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer
+      Verbraucherschlichtungsstelle teilzunehmen.
+    </p>
+  </div>
+</main>

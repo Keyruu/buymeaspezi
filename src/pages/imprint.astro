@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Imprint from '../components/Imprint.astro';
+import { useTranslations } from '../i18n/ui';
+
+const t = useTranslations('de');
+---
+
+<Layout title={t('title')} description={t('description')}>
+  <Imprint lang="de" />
+</Layout>

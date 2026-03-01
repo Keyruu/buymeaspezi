@@ -1,26 +1,17 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "buymeaspezi",
   "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@iconify-json/mdi": "^1.1.63",
-    "@iconify-json/simple-icons": "^1.1.84",
-    "@nuxt/devtools": "latest",
-    "@nuxt/image": "latest",
-    "@nuxt/ui": "^2.9.0",
-    "@nuxtjs/web-vitals": "^0.2.6",
-    "nuxt": "^3.7.4",
-    "nuxt-simple-robots": "^3.1.10",
-    "nuxt-simple-sitemap": "^4.1.17"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "next"
+    "astro": "^5.0.0",
+    "@astrojs/tailwind": "^6.0.0",
+    "tailwindcss": "^3.4.0"
   }
 }

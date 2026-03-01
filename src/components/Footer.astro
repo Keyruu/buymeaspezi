@@ -1,0 +1,41 @@
+---
+import { useTranslations, defaultLang, languages } from '../i18n/ui';
+
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang as 'de' | 'en');
+const imprintPath = '/imprint';
+
+const otherLang = lang === 'de' ? 'en' : 'de';
+const currentPath = Astro.url.pathname;
+const otherLangPath = currentPath.replace(`/${lang}`, `/${otherLang}`).replace(`/${lang}/`, `/${otherLang}/`) || `/${otherLang}`;
+const switchPath = currentPath.includes('/en') ? currentPath.replace('/en', '') : `/${otherLang}${currentPath}`;
+---
+
+<footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800 mt-auto">
+  <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      {t('madeBy')}<a href="https://keyruu.de/" class="hover:underline">Keyruu</a>.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+      <li>
+        <a href="https://keyruu.de" target="_blank" class="hover:underline me-4 md:me-6">{t('website')}</a>
+      </li>
+      <li>
+        <a href="https://github.com/Keyruu" target="_blank" class="hover:underline me-4 md:me-6">Github</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/neinhieristlucas/" target="_blank" class="hover:underline me-4 md:me-6">Instagram</a>
+      </li>
+      <li>
+        <a href={imprintPath} class="hover:underline me-4 md:me-6">{t('imprint')}</a>
+      </li>
+      <li>
+        <a href={switchPath} class="hover:underline">{lang === 'de' ? 'English' : 'Deutsch'}</a>
+      </li>
+    </ul>
+  </div>
+</footer>

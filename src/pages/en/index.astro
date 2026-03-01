@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import MainPage from '../../components/MainPage.astro';
+import { useTranslations } from '../../i18n/ui';
+
+const t = useTranslations('en');
+---
+
+<Layout title={t('title')} description={t('description')}>
+  <MainPage lang="en" />
+</Layout>
