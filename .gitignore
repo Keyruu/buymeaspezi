@@ -31,3 +31,4 @@ pnpm-debug.log*
 
 # Local development
 *.local
+result

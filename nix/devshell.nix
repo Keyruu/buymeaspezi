@@ -3,7 +3,7 @@ perSystem.devshell.mkShell
   {
     packages = with pkgs; [
       nodejs_24
-      pnpm_10
+      pnpm_11
     ];
   }
 
