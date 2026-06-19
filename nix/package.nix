@@ -12,7 +12,7 @@ pkgs.stdenvNoCC.mkDerivation rec {
     pname = name;
     pnpm = pkgs.pnpm;
     fetcherVersion = 3;
-    hash = "sha256-rWd5PhDWYGxz+fdCPATBK7u+I9/ByJilvxK+Yw9v/yI=";
+    hash = "sha256-gl0kjSHsfGZ2/HdiLwtZjdR2GKSCAumgDrDw5qs4vV8=";
   };
   buildPhase = ''
     pnpm build
